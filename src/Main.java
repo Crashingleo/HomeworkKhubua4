@@ -36,7 +36,7 @@ public class Main {
 
         // Zadacha 3 //
         System.out.println("Задача 3");
-        int year = 700;
+        int year = 2004 ;
         if (year % 400 == 0) {
             System.out.println("Год является високосным");
         } else if (year % 4 == 0 && year % 100 != 0 ){
@@ -53,7 +53,7 @@ public class Main {
         } else if (deliveryDistance <= 60){
             System.out.println("Потребуется дней: 2");
         } else if (deliveryDistance <= 100){
-            System.out.println("Потребуется дней: 4");
+            System.out.println("Потребуется дней: 3");
         } else System.out.println("Доставки нет");
 
         // Zadacha 5 //
